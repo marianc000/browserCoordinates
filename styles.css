@@ -1,0 +1,56 @@
+html {
+    font-family: system-ui;
+    height: 100%;
+    box-sizing: content-box;
+}
+
+.property {
+    /* text-align:center; */
+    /* border:1px solid blue; */
+    padding: 0 0.5em;
+}
+
+body {
+    margin: 0;
+    /* border: 2px solid red; */
+    height: 100%;
+    box-sizing: border-box;
+}
+ 
+
+.bottom {
+    align-content: end;
+}
+
+div#outDiv {
+    display: inline-block;
+}
+
+div#containerDiv {
+    height: 100%;
+    text-align:center;
+    align-content: center;
+}
+ table {
+    border-collapse: collapse;
+}
+
+td:not(:last-child):not(:empty) {
+    border-right: 1px solid gray;
+}
+
+tr:not(:first-child) td:not(:empty) {
+    border-top: 1px solid black;
+}
+
+td:empty  {
+    border: 2px solid white;
+}
+
+.extension {
+    color: blue;
+}
+
+.property>div:first-child {
+    font-style: italic;
+}

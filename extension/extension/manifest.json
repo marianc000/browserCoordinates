@@ -1,0 +1,19 @@
+{
+  "manifest_version": 3,
+  "name": "Dimensions",
+  "description": "Browser window dimensions",
+  "version": "0.0.1",
+  "icons": {
+    "128": "images/off.png"
+  },
+  "background": {
+    "service_worker": "sw/sw.js",
+    "type": "module"
+  },
+ 
+  "externally_connectable": {
+    "matches": [
+      "<all_urls>"
+    ]
+  }
+}
